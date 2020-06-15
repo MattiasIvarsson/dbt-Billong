@@ -1,0 +1,3 @@
+packages:
+  - git: "https://github.com/mikaelene/dbt-event-logging-sqlserver.git"
+  - git: "https://github.com/mikaelene/dbt-codegen-sqlserver.git"

@@ -1,0 +1,61 @@
+
+# Name your package! Package names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'billong'
+version: '1.0'
+
+# This setting configures which "profile" dbt uses for this project. Profiles contain
+# database connection information, and should be configured in the  ~/.dbt/profiles.yml file
+profile: 'billong'
+
+# These configurations specify where dbt should look for different types of files.
+# The `source-paths` config, for example, states that source models can be found
+# in the "model/" directory. You probably won't need to change these!
+source-paths: ["models"]
+analysis-paths: ["analysis"] 
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+    - "target"
+    - "dbt_modules"
+
+# You can define configurations for models in the `source-paths` directory here.
+# Using these configurations, you can enable or disable models, change how they
+# are materialized, and more!
+on-run-start:
+    - "drop FUNCTION IF EXISTS dbo.udfGetOnlyNumeric"
+    - "CREATE  FUNCTION [dbo].[udfGetOnlyNumeric](@String NVARCHAR(100)) RETURNS NVARCHAR(100) WITH SCHEMABINDING AS  BEGIN WHILE PATINDEX('%[^0-9]%', @String) > 0  SET @String = REPLACE(@String, SUBSTRING(@String,PATINDEX('%[^0-9]%', @String),1),'') WHILE PATINDEX('%+%', @String) > 0  SET @String = REPLACE(@String, SUBSTRING(@String,PATINDEX('%[^0-9]%', @String),1),'') Return @String END"
+
+# In this example config, we tell dbt to build all models in the example/ directory
+# as views (the default). These settings can be overridden in the
+#individual model files
+# using the `{{ config(...) }}` macro.
+models:
+  billong:
+      pre-hook: "{{ logging.log_model_start_event() }}"
+      post-hook: "{{ logging.log_model_end_event() }}"
+      # Applies to all files under models/example/
+      staging:
+          materialized: view
+          schema: staging
+     # inter:
+     #     materialized: table
+     #     schema: inter
+     # ref:
+     #     materialized: table
+     #     schema: ref
+      marts:
+          materialized: table
+          schema: marts
+          results:
+            materialized: table
+            schema: game
+
+seeds:
+  billong:
+    enabled: true
+    schema: seeds

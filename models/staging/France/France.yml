@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: France
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: Ligue1_1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: Ligue1_1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: Ligue1_1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: Ligue1_1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: Ligue1_1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: Ligue1_1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: Ligue1_1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: Ligue1_1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: Ligue1_1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: Ligue1_0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: Ligue1_0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: Ligue1_0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: Ligue1_0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: Ligue1_0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: Ligue1_0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: Ligue1_0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: Ligue1_0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: Ligue1_0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: Ligue1_0001 # To alias table names to account for strange casing or naming of tables  
+
+
+
