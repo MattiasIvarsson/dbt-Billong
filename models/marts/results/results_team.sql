@@ -1,6 +1,4 @@
 
-
-
 with cte as (
 
 ---- HOME TEAM-----------
