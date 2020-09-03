@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: England
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: PL_1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: PL_1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: PL_1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: PL_1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: PL_1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: PL_1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: PL_1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: PL_1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: PL_1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: PL_0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: PL_0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: PL_0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: PL_0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: PL_0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: PL_0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: PL_0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: PL_0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: PL_0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: PL_0001 # To alias table names to account for strange casing or naming of tables  
+
+
+

@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: Portugal
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: Portugal1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: Portugal1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: Portugal1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: Portugal1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: Portugal1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: Portugal1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: Portugal1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: Portugal1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: Portugal1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: Portugal0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: Portugal0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: Portugal0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: Portugal0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: Portugal0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: Portugal0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: Portugal0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: Portugal0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: Portugal0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: Portugal0001 # To alias table names to account for strange casing or naming of tables  
+
+
+

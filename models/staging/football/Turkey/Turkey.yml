@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: Turkey
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: Turkey1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: Turkey1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: Turkey1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: Turkey1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: Turkey1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: Turkey1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: Turkey1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: Turkey1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: Turkey1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: Turkey0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: Turkey0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: Turkey0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: Turkey0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: Turkey0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: Turkey0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: Turkey0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: Turkey0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: Turkey0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: Turkey0001 # To alias table names to account for strange casing or naming of tables  
+
+
+

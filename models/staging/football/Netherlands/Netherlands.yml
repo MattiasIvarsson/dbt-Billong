@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: Netherlands
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: Netherlands1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: Netherlands1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: Netherlands1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: Netherlands1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: Netherlands1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: Netherlands1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: Netherlands1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: Netherlands1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: Netherlands1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: Netherlands0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: Netherlands0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: Netherlands0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: Netherlands0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: Netherlands0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: Netherlands0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: Netherlands0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: Netherlands0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: Netherlands0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: Netherlands0001 # To alias table names to account for strange casing or naming of tables  
+
+
+

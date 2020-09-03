@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: Belgium
+    database: FOOTBALL-LAND     # Tell dbt to look for the source in the "raw" database
+    schema: dbo # You wouldn't put your source data in public, would you?
+   
+    tables:
+      - name: s_1819
+        identifier: Belgium1819 # To alias table names to account for strange casing or naming of tables
+
+      - name: s_1718
+        identifier: Belgium1718 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1617
+        identifier: Belgium1617 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1516
+        identifier: Belgium1516 # To alias table names to account for strange casing or naming of tables 
+      
+      - name: s_1415
+        identifier: Belgium1415 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1314
+        identifier: Belgium1314 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1213
+        identifier: Belgium1213 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1112
+        identifier: Belgium1112 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_1011
+        identifier: Belgium1011 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0910
+        identifier: Belgium0910 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0809
+        identifier: Belgium0809 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0708
+        identifier: Belgium0708 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0607
+        identifier: Belgium0607 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0506
+        identifier: Belgium0506 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0405
+        identifier: Belgium0405 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0304
+        identifier: Belgium0304 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0203
+        identifier: Belgium0203 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0102
+        identifier: Belgium0102 # To alias table names to account for strange casing or naming of tables  
+
+      - name: s_0001
+        identifier: Belgium0001 # To alias table names to account for strange casing or naming of tables  
+
+
+
