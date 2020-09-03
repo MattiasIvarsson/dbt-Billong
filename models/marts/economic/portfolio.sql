@@ -1,3 +1,15 @@
+-- TODO
+
+--Closing Balance
+--OpeningBalance
+--Return current portfolio
+--Return real
+--Return Tot
+--return YTD
+--Rate utveckling month per month
+--Rate since last output
+--Rate YTD
+--Rate total
 
 
     SELECT
@@ -11,7 +23,13 @@
         ,f.rate
         ,f.input
         ,f.output
+        ,NULL AS 'new_share'
+        ,NULL AS 'total_share'
+        ,NULL AS 'input_ack'
+        ,NULL AS 'output_ack'
 
     FROM
                 {{ref('f_stocks')}} AS f
     LEFT JOIN   {{ref('d_stocks')}} AS d ON f.stock_id = d.stock_id
+
+
