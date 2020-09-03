@@ -51,10 +51,12 @@ models:
       marts:
           materialized: table
           schema: marts
-          results:
+          football:
             materialized: table
-            schema: game
-
+            schema: football
+          economic:
+            materialized: table
+            schema: eco
 seeds:
   billong:
     enabled: true
