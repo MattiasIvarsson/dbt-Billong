@@ -1,6 +1,6 @@
 
 	SELECT
-        ,ROW_NUMBER() OVER( ORDER BY date_id) AS transaction_id
+        ROW_NUMBER() OVER( ORDER BY date_id) AS transaction_id
         ,date_id
         ,stock_id
         ,current_value
