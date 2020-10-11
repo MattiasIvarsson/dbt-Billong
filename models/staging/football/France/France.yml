@@ -6,9 +6,11 @@ sources:
     schema: dbo # You wouldn't put your source data in public, would you?
    
     tables:
+      - name: s_1920
+        identifier: Ligue1_1920 # To alias table names to account for strange casing or naming of tables
+
       - name: s_1819
         identifier: Ligue1_1819 # To alias table names to account for strange casing or naming of tables
-
       - name: s_1718
         identifier: Ligue1_1718 # To alias table names to account for strange casing or naming of tables  
 

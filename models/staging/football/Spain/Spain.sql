@@ -1,7 +1,44 @@
 
-
 -------------------------LA LIGA 18/19-----------------------------
 
+SELECT
+		ROW_NUMBER () OVER ( ORDER By CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))		AS DATE) )				AS 'GameNumber'
+		,IIF(		ROW_NUMBER () OVER ( ORDER By		CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))	AS DATE)	 ) <11
+				,1,
+				LEFT (	ROW_NUMBER () OVER ( ORDER By	CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))	AS DATE))-1
+				,LEN(	ROW_NUMBER () OVER ( ORDER By	CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))	AS DATE)))-1)+1)	AS 'GameWeek'
+
+		,CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))	AS DATE)										AS 'MatchDay'
+		,'2020'										    AS 'Season'
+		,'Spain'											AS 'Country'
+		,'LaLiga'											AS 'League'
+		,1													AS 'Division'
+		,HomeTeam											AS 'HomeTeam'
+		,AwayTeam											AS 'AwayTeam'
+		,FTHG												AS 'FullTimeHomeGoal'
+		,FTAG												AS 'FullTimeAwayGoal'
+		,FTR												AS 'FullTimeResult'
+		,HTHG												AS 'HalfTimeHomeGoal'
+		,HTAG												AS 'HalfTimeAwayGoal'
+		,HTR												AS 'HalfTimeResult'
+		,HS													AS 'HomeShots'
+		,[AS]												AS 'AwayShots'
+		,HST												AS 'HomeShotTarget'
+		,AST												AS 'AwayShotTarget'
+		,HF													AS 'HomeFouls'
+		,AF													AS 'AwayFouls'
+		,HC													AS 'HomeCorners'
+		,AC													AS 'AwayCorners'
+		,HY													AS 'HomeYellow'
+		,AY													AS 'AwayYellow'
+		,HR 												AS 'HomeRed'
+		,AR 												AS 'AwayRed'
+
+	FROM {{source('Spain','s_1920')}}
+
+
+-------------------------LA LIGA 18/19-----------------------------
+UNION ALL
 SELECT 
 		ROW_NUMBER () OVER ( ORDER By date )				AS 'GameNumber'
 		,IIF(ROW_NUMBER () OVER ( ORDER By date ) <11,1,LEFT (ROW_NUMBER () OVER ( ORDER By date )-1,	LEN(ROW_NUMBER () OVER ( ORDER By date ))-1)+1)		 AS 'GameWeek'

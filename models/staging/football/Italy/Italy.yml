@@ -6,6 +6,9 @@ sources:
     schema: dbo # You wouldn't put your source data in public, would you?
    
     tables:
+      - name: s_1920
+        identifier: SerieA_1920 # To alias table names to account for strange casing or naming of tables
+
       - name: s_1819
         identifier: SerieA_1819 # To alias table names to account for strange casing or naming of tables
 
@@ -61,7 +64,7 @@ sources:
         identifier: SerieA_0102 # To alias table names to account for strange casing or naming of tables  
 
       - name: s_0001
-        identifier: SerieA_0001 # To alias table names to account for strange casing or naming of tables  
+        identifier: SerieA_0001 # To alias table names to account for strange casing or naming of tables
 
 
 
