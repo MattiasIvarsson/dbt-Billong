@@ -47,8 +47,8 @@ WITH stocks AS (
 		,rate
 		,acc_share
 		,acc_share * rate															AS 'current_value_calc'
-		,CAST(((acc_share * rate) / (input_acc-output_acc)) -1	AS DECIMAL(18,3))	AS 'growth_percentage_total'
-		,CAST(((acc_share * rate) / input_acc) 	-1	AS DECIMAL(18,3))				AS 'growth_percentage_current'
+		,CAST(((acc_share * rate) / (input_acc-output_acc)) -1	AS DECIMAL(18,4))	AS 'growth_percentage_total'
+		,CAST(((acc_share * rate) / input_acc) 	-1	AS DECIMAL(18,4))				AS 'growth_percentage_current'
 		,(acc_share * rate)	- input_acc + output_acc								AS 'return_total'
 		,(acc_share * rate)	- input_acc												AS 'return_current'
 		,output_acc																	AS 'return_real'
@@ -58,6 +58,6 @@ WITH stocks AS (
 		,output_acc
 		,output_share
 		,input_share
-
+        ,CASE WHEN ROW_NUMBER() OVER (PARTITION BY stock_id ORDER BY date_id DESC) = 1 THEN 1 ELSE 0 END AS 'last_day'
 	FROM
 		stocks
