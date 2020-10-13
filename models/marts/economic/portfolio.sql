@@ -11,6 +11,7 @@
 --Rate YTD
 --Rate total
 
+
 WITH stocks AS (
 
 	SELECT
