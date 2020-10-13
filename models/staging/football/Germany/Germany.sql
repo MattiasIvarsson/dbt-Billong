@@ -1,3 +1,6 @@
+{{ config(tags=["football_staging"])}}
+
+
 SELECT
 		ROW_NUMBER () OVER ( ORDER By CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))		AS DATE) )				AS 'GameNumber'
 		,IIF(		ROW_NUMBER () OVER ( ORDER By		CAST(CONCAT('20',RIGHT(Date,2),'-',LEFT(RIGHT(Date,7),2),'-',LEFT(Date,2))	AS DATE)	 ) <11

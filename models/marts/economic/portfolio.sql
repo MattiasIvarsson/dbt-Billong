@@ -1,3 +1,5 @@
+{{ config(tags=["eco"])}}
+
 -- TODO
 
 --Closing Balance

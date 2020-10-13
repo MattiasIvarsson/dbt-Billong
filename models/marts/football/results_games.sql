@@ -1,3 +1,4 @@
+{{ config(tags=["football"])}}
 
 	SELECT
 		match_key

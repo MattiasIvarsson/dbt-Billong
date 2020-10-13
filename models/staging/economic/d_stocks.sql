@@ -1,3 +1,5 @@
+{{ config( materialized='view')}}
+{{ config(tags=["eco"])}}
 
 	SELECT
         stock_id

@@ -1,3 +1,6 @@
+{{ config(tags=["football_staging"])}}
+
+
 -------------------------PREMIER LEAUGE 19/20-----------------------------
 
 

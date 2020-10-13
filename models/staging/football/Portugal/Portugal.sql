@@ -1,4 +1,6 @@
-SELECT 
+{{ config(tags=["football_staging"])}}
+
+SELECT
 		ROW_NUMBER () OVER ( ORDER By date )				AS 'GameNumber'
 		,IIF(ROW_NUMBER () OVER ( ORDER By date ) <11,1,LEFT (ROW_NUMBER () OVER ( ORDER By date )-1,	LEN(ROW_NUMBER () OVER ( ORDER By date ))-1)+1)		 AS 'GameWeek'
 		,Date												AS 'MatchDay'

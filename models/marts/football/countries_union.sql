@@ -1,3 +1,4 @@
+{{ config(tags=["football"])}}
 
 with cte as (
 ----England-------------------

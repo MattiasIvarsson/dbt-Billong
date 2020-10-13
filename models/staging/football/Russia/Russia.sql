@@ -1,3 +1,4 @@
+{{ config(tags=["football_staging"])}}
 
 SELECT
 		ROW_NUMBER () OVER (Partition By season ORDER By date )			AS 'GameNumber'
