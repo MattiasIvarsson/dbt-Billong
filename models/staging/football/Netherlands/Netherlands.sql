@@ -30,6 +30,49 @@ SELECT
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,NULL AS LBH
+,NULL AS LBD
+,NULL AS LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Netherlands','s_1819')}}
 
 	
@@ -67,6 +110,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Netherlands','s_1718')}}
 
@@ -104,7 +189,49 @@ SELECT
 		,null												AS 'HomeRed'
 		,null												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 
 	FROM {{source('Netherlands','s_1617')}}
 
@@ -143,6 +270,50 @@ SELECT
 		,null										 		AS 'HomeRed'
 		,null										 		AS 'AwayRed'
 		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
+
 	FROM {{source('Netherlands','s_1516')}}
 
 
@@ -180,6 +351,49 @@ SELECT
 		,null												AS 'HomeRed'
 		,null												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Netherlands','s_1415')}}
 
 -------------------------Eredivisie 13/14----------------------------------------------------------------------------
@@ -216,7 +430,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Netherlands','s_1314')}}
 
 -------------------------Eredivisie 12/13---------------------------------------------------------------------------------------------
@@ -253,7 +509,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Netherlands','s_1213')}}
 
 -------------------------Eredivisie 11/12----------------------------------------------------------------------------------------------
@@ -290,7 +588,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Netherlands','s_1112')}}
 
 -------------------------Eredivisie 10/11--------------------------------------------------------------------------------------------
@@ -327,6 +667,48 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Netherlands','s_1011')}}
 
@@ -364,6 +746,48 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Netherlands','s_0910')}}
 
@@ -401,6 +825,48 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Netherlands','s_0809')}}
 
@@ -439,6 +905,48 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Netherlands','s_0708')}}
 */
@@ -477,7 +985,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Netherlands','s_0607')}}
 
 -------------------------Eredivisie 05/06---------------------------------------------------------------------
@@ -515,7 +1065,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-		
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Netherlands','s_0506')}}
 
 
@@ -632,6 +1224,49 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 
 	FROM {{source('Netherlands','s_0203')}}
 */
@@ -671,7 +1306,50 @@ UNION ALL
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
+
 	FROM {{source('Netherlands','s_0102')}}
 
 -------------------------Eredivisie 00/01-----------------------------
@@ -706,6 +1384,49 @@ UNION ALL
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 
 	FROM {{source('Netherlands','s_0001')}}
 

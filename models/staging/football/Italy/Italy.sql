@@ -35,6 +35,48 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,NULL AS LBH
+,NULL AS LBD
+,NULL AS LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,NULL AS Bb1X2
+,NULL AS BbMxH
+,NULL AS BbAvH
+,NULL AS BbMxD
+,NULL AS BbAvD
+,NULL AS BbMxA
+,NULL AS BbAvA
+,NULL AS BbOU
+,NULL AS BbMx_2_5
+,NULL AS BbAv_2_5
+,NULL AS BbMx_2_5_2
+,NULL AS BbAv_2_5_2
+,NULL AS BbAH
+,NULL AS BbAHh
+,NULL AS BbMxAHH
+,NULL AS BbAvAHH
+,NULL AS BbMxAHA
+,NULL AS BbAvAHA
+,NULL AS PSCH
+,NULL AS PSCD
+,NULL AS PSCA
 
 	FROM {{source('Italy','s_1920')}}
 
@@ -68,6 +110,48 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,NULL AS LBH
+,NULL AS LBD
+,NULL AS LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Italy','s_1819')}}
 
@@ -106,6 +190,48 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Italy','s_1718')}}
 
@@ -143,7 +269,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 
 	FROM {{source('Italy','s_1617')}}
 
@@ -182,6 +350,48 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR											 		AS 'HomeRed'
 		,AR											 		AS 'AwayRed'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Italy','s_1516')}}
 
@@ -220,6 +430,48 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Italy','s_1415')}}
 
@@ -258,7 +510,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Italy','s_1314')}}
 
 
@@ -295,7 +589,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Italy','s_1213')}}
 
 
@@ -332,7 +668,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_1112')}}
 
 
@@ -370,7 +748,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_1011')}}
 
 
@@ -404,7 +824,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_0910')}}
 
 
@@ -441,7 +903,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
  
 	FROM {{source('Italy','s_0809')}}
 
@@ -480,7 +984,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
  
 	FROM {{source('Italy','s_0708')}}
 
@@ -518,7 +1064,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_0607')}}
 
 
@@ -556,7 +1144,49 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_0506')}}
 
 
@@ -703,6 +1333,49 @@ UNION ALL
 		,NULL												AS 'AwayYellow'
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Italy','s_0102')}}
 
 
@@ -738,6 +1411,48 @@ UNION ALL
 		,NULL												AS 'AwayYellow'
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Italy','s_0001')}}
 

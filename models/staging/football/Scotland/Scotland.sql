@@ -29,6 +29,49 @@ SELECT
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,NULL AS LBH
+,NULL AS LBD
+,NULL AS LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Scotland','s_1819')}}
 
 	
@@ -66,6 +109,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 	FROM {{source('Scotland','s_1718')}}
 
@@ -103,7 +188,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 
 	FROM {{source('Scotland','s_1617')}}
 
@@ -142,6 +269,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+        ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Scotland','s_1516')}}
 
 
@@ -179,6 +349,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Scotland','s_1415')}}
 
 -------------------------Premiership 13/14----------------------------------------------------------------------------
@@ -215,7 +428,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Scotland','s_1314')}}
 
 -------------------------Premiership 12/13---------------------------------------------------------------------------------------------
@@ -252,7 +507,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,null												AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Scotland','s_1213')}}
 
 -------------------------Premiership 11/12----------------------------------------------------------------------------------------------
@@ -289,7 +586,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Scotland','s_1112')}}
 
 
@@ -327,6 +666,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_1011')}}
 
@@ -364,6 +745,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_0910')}}
 
@@ -401,6 +824,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_0809')}}
 
@@ -439,6 +904,48 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_0708')}}
 -------------------------Premiership 06/07---------------------------------------------------------------------------------
@@ -476,7 +983,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Scotland','s_0607')}}
 
 -------------------------Premiership 05/06---------------------------------------------------------------------
@@ -514,7 +1063,49 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
-		
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Scotland','s_0506')}}
 
 
@@ -631,6 +1222,48 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_0203')}}
 */
@@ -667,7 +1300,49 @@ UNION ALL
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
-	
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Scotland','s_0102')}}
 
 -------------------------Premiership 00/01-----------------------------
@@ -702,6 +1377,48 @@ UNION ALL
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,Referee											AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Scotland','s_0001')}}
 
