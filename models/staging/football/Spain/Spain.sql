@@ -34,7 +34,6 @@ SELECT
 		,AY													AS 'AwayYellow'
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
-
 	FROM {{source('Spain','s_1920')}}
 
 

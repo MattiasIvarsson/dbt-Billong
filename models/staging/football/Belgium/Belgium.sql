@@ -30,6 +30,51 @@ SELECT
 		,HR 												AS 'HomeRed'
 		,AR 												AS 'AwayRed'
 		,NULL												AS 'Referee'
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,NULL AS LBH
+        ,NULL AS LBD
+        ,NULL AS LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,NULL AS SJH
+        ,NULL AS SJD
+        ,NULL AS SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 	FROM {{source('Belgium','s_1819')}}
 
 	
@@ -67,6 +112,51 @@ SELECT
 		,HR													AS 'HomeRed'
 		,AR													AS 'AwayRed'
 		,NULL												AS 'Referee'
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,NULL AS SJH
+        ,NULL AS SJD
+        ,NULL AS SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{source('Belgium','s_1718')}}
 
@@ -104,7 +194,52 @@ SELECT
 		,null												AS 'HomeRed'
 		,null												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+         ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,NULL AS SJH
+        ,NULL AS SJD
+        ,NULL AS SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
+
 
 	FROM {{source('Belgium','s_1617')}}
 
@@ -143,6 +278,53 @@ SELECT
 		,null										 		AS 'HomeRed'
 		,null										 		AS 'AwayRed'
 		,NULL												AS 'Referee'
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,NULL AS SJH
+        ,NULL AS SJD
+        ,NULL AS SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
+
+
 	FROM {{source('Belgium','s_1516')}}
 
 
@@ -180,6 +362,52 @@ SELECT
 		,null												AS 'HomeRed'
 		,null												AS 'AwayRed'
 		,NULL												AS 'Referee'
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
+
 	FROM {{source('Belgium','s_1415')}}
 
 -------------------------Jupiler League 13/14----------------------------------------------------------------------------
@@ -216,7 +444,52 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+         ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
+
 	FROM {{source('Belgium','s_1314')}}
 
 -------------------------Jupiler League 12/13---------------------------------------------------------------------------------------------
@@ -253,7 +526,52 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('Belgium','s_1213')}}
 
 -------------------------Jupiler League 11/12----------------------------------------------------------------------------------------------
@@ -290,7 +608,52 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
- 
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
+
 	FROM {{source('Belgium','s_1112')}}
 
 
@@ -328,7 +691,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_1011')}}
 
 -------------------------Jupiler League 09/10------------------------------------------------------------------
@@ -365,7 +772,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_0910')}}
 
 -------------------------Jupiler League 08/09-----------------------------------------------------------------
@@ -402,7 +853,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_0809')}}
 
 
@@ -440,7 +935,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_0708')}}
 -------------------------Jupiler League 06/07---------------------------------------------------------------------------------
 
@@ -477,7 +1016,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_0607')}}
 
 -------------------------Jupiler League 05/06---------------------------------------------------------------------
@@ -515,7 +1098,51 @@ SELECT
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
  		,NULL												AS 'Referee'
-		
+,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,NULL AS PSH
+        ,NULL AS PSD
+        ,NULL AS PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,SJH
+        ,SJD
+        ,SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,NULL
+        ,NULL
+        ,NULL
 	FROM {{source('Belgium','s_0506')}}
 
 
@@ -666,7 +1293,52 @@ UNION ALL
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
-	
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('Belgium','s_0102')}}
 
 -------------------------Jupiler League 00/01-----------------------------
@@ -701,6 +1373,51 @@ UNION ALL
 		,NULL												AS 'HomeRed'
 		,NULL												AS 'AwayRed'
 		,NULL												AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
 
 	FROM {{source('Belgium','s_0001')}}
 

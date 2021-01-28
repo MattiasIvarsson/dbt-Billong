@@ -37,7 +37,51 @@
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
-
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,NULL AS LBH
+        ,NULL AS LBD
+        ,NULL AS LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,NULL AS SJH
+        ,NULL AS SJD
+        ,NULL AS SJA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,NULL AS Bb1X2
+        ,NULL AS BbMxH
+        ,NULL AS BbAvH
+        ,NULL AS BbMxD
+        ,NULL AS BbAvD
+        ,NULL AS BbMxA
+        ,NULL AS BbAvA
+        ,NULL AS BbOU
+        ,NULL AS BbMx_2_5
+        ,NULL AS BbAv_2_5
+        ,NULL AS BbMx_2_5_2
+        ,NULL AS BbAv_2_5_2
+        ,NULL AS BbAH
+        ,NULL AS BbAHh
+        ,NULL AS BbMxAHH
+        ,NULL AS BbAvAHH
+        ,NULL AS BbMxAHA
+        ,NULL AS BbAvAHA
+        ,NULL AS PSCH
+        ,NULL AS PSCD
+        ,NULL AS PSCA
 
 
 	FROM {{source('England','s_1920')}}
@@ -79,7 +123,51 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
-
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,NULL AS LBH
+,NULL AS LBD
+,NULL AS LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,NULL
+,NULL
+,NULL
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_1
+,BbAv_2_5_1
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
 
 
 	FROM {{source('England','s_1819')}}
@@ -120,7 +208,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,NULL
+,NULL
+,NULL
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('England','s_1718')}}
 
 
@@ -158,7 +291,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,NULL
+,NULL
+,NULL
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('England','s_1617')}}
 
 
@@ -197,7 +375,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,NULL
+,NULL
+,NULL
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('England','s_1516')}}
 
 
@@ -236,7 +459,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('England','s_1415')}}
 
 
@@ -274,7 +542,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,PSCA
+
 	FROM {{source('England','s_1314')}}
 
 
@@ -312,6 +625,53 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,PSH
+,PSD
+,PSA
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,PSCH
+,PSCD
+,NULL
+
+
 	FROM {{source('England','s_1213')}}
 
 
@@ -349,7 +709,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_1112')}}
 
 
@@ -388,7 +793,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_1011')}}
 
 
@@ -423,7 +873,52 @@ SELECT
 		,CASE WHEN HR = 'True' THEN 1 ELSE 0	END			AS 'HomeRed'
 		,CASE WHEN AR = 'True' THEN 1 ELSE 0	END			AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0910')}}
 
 
@@ -461,7 +956,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
  
 	FROM {{source('England','s_0809')}}
 
@@ -501,7 +1041,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
  
 	FROM {{source('England','s_0708')}}
 
@@ -540,7 +1125,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
-	
+,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0607')}}
 
 
@@ -579,7 +1209,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,SJH
+,SJD
+,SJA
+,VCH
+,VCD
+,VCA
+,Bb1X2
+,BbMxH
+,BbAvH
+,BbMxD
+,BbAvD
+,BbMxA
+,BbAvA
+,BbOU
+,BbMx_2_5
+,BbAv_2_5
+,BbMx_2_5_2
+,BbAv_2_5_2
+,BbAH
+,BbAHh
+,BbMxAHH
+,BbAvAHH
+,BbMxAHA
+,BbAvAHA
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0506')}}
 
 
@@ -620,7 +1295,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+ ,B365H
+,B365D
+,B365A
+,BWH
+,BWD
+,BWA
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,WHH
+,WHD
+,WHA
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0405')}}
 
 
@@ -660,7 +1380,52 @@ SELECT
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,B365H
+,B365D
+,B365A
+,NULL
+,NULL
+,NULL
+,IWH
+,IWD
+,IWA
+,LBH
+,LBD
+,LBA
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0304')}}
 
 
@@ -732,6 +1497,53 @@ UNION ALL
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
+
 	FROM {{source('England','s_0102')}}
 
 
@@ -768,7 +1580,52 @@ UNION ALL
 		,CASE WHEN HR = 1 THEN 1 ELSE 0	END					AS 'HomeRed'
 		,CASE WHEN AR = 1 THEN 1 ELSE 0	END					AS 'AwayRed'
 		,Referee											AS 'Referee'
- 
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+,NULL
+
 	FROM {{source('England','s_0001')}}
 
 
