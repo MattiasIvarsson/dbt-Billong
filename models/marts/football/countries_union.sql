@@ -35,6 +35,49 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
+
 
 	FROM {{ref('England')}}
 
@@ -76,6 +119,48 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Spain')}}
 
@@ -117,6 +202,48 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Italy')}}
 
@@ -158,6 +285,48 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Germany')}}
 
@@ -199,6 +368,48 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('France')}}
 
@@ -239,6 +450,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 	FROM {{ref('Argentina')}}
 
@@ -278,6 +531,49 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+
 		FROM {{ref('Austria')}}
 
 
@@ -317,6 +613,48 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Belgium')}}
 
@@ -357,6 +695,49 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+
 		FROM {{ref('Brazil')}}
 
 UNION ALL
@@ -395,6 +776,49 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+
 		FROM {{ref('Denmark')}}
 
 UNION ALL
@@ -433,6 +857,49 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+
 		FROM {{ref('Finland')}}
 
 UNION ALL
@@ -469,6 +936,48 @@ UNION ALL
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Greece')}}
 
@@ -509,6 +1018,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Ireland')}}
 
@@ -549,6 +1100,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Japan')}}
 
@@ -591,6 +1184,48 @@ UNION ALL
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Netherlands')}}
 
@@ -631,6 +1266,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Norway')}}
 
@@ -672,6 +1349,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Poland')}}
 
@@ -714,6 +1433,48 @@ UNION ALL
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Portugal')}}
 
@@ -754,10 +1515,50 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Romania')}}
-
-
 
 
 UNION ALL
@@ -796,6 +1597,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Russia')}}
 
@@ -837,6 +1680,48 @@ UNION ALL
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Scotland')}}
 
@@ -877,6 +1762,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Sweden')}}
 
@@ -916,6 +1843,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('Switzerland')}}
 
@@ -956,6 +1925,48 @@ UNION ALL
 		,AwayYellow
 		,HomeRed
 		,AwayRed
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 
 	FROM {{ref('Turkey')}}
 
@@ -997,6 +2008,48 @@ SELECT
 		,NULL
 		,NULL
 		,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
+        ,NULL
 
 		FROM {{ref('USA')}}
 
@@ -1035,6 +2088,47 @@ SELECT
 		,AwayYellow
 		,HomeRed
 		,AwayRed
-
+        ,B365H
+        ,B365D
+        ,B365A
+        ,BWH
+        ,BWD
+        ,BWA
+        ,IWH
+        ,IWD
+        ,IWA
+        ,LBH
+        ,LBD
+        ,LBA
+        ,PSH
+        ,PSD
+        ,PSA
+        ,WHH
+        ,WHD
+        ,WHA
+        ,VCH
+        ,VCD
+        ,VCA
+        ,Bb1X2
+        ,BbMxH
+        ,BbAvH
+        ,BbMxD
+        ,BbAvD
+        ,BbMxA
+        ,BbAvA
+        ,BbOU
+        ,BbMx_2_5
+        ,BbAv_2_5
+        ,BbMx_2_5_2
+        ,BbAv_2_5_2
+        ,BbAH
+        ,BbAHh
+        ,BbMxAHH
+        ,BbAvAHH
+        ,BbMxAHA
+        ,BbAvAHA
+        ,PSCH
+        ,PSCD
+        ,PSCA
 	FROM
 		cte
