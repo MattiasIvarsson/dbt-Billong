@@ -1,16 +1,16 @@
-
 # Name your package! Package names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'billong'
-version: '1.0'
+version: '2.0'
+config-version: 2
 
 # This setting configures which "profile" dbt uses for this project. Profiles contain
 # database connection information, and should be configured in the  ~/.dbt/profiles.yml file
 profile: 'billong'
 
 # These configurations specify where dbt should look for different types of files.
-# The `source-paths` config, for example, states that source models can be found
+# The `A-source-paths` config, for example, states that A-source models can be found
 # in the "model/" directory. You probably won't need to change these!
 source-paths: ["models"]
 analysis-paths: ["analysis"] 
@@ -23,7 +23,12 @@ clean-targets:         # directories to be removed by `dbt clean`
     - "target"
     - "dbt_modules"
 
-# You can define configurations for models in the `source-paths` directory here.
+vars:
+  billong_event: ['current']
+  billong_start_date_limit: 'CAST(DATEADD(YEAR, DATEDIFF(YEAR,0,GETDATE())-3, 0) AS DATE)'
+
+
+# You can define configurations for models in the `A-source-paths` directory here.
 # Using these configurations, you can enable or disable models, change how they
 # are materialized, and more!
 on-run-start:
@@ -39,30 +44,35 @@ models:
       pre-hook: "{{ logging.log_model_start_event() }}"
       post-hook: "{{ logging.log_model_end_event() }}"
       # Applies to all files under models/example/
-      staging:
+      B-land:
+          materialized: view
+          schema: land
+          tags: land
+      C-staging:
           materialized: view
           schema: staging
           tags: staging
-
-     # inter:
-     #     materialized: table
-     #     schema: inter
-     # ref:
-     #     materialized: table
-     #     schema: ref
-      marts:
+      D-inter:
+          materialized: table
+          schema: inter
+          tags: inter
+      E-marts:
           materialized: table
           schema: marts
+          tags: marts
           football:
             materialized: table
             schema: football
-            tags:
-              - football
-          economic:
-            materialized: table
-            schema: eco
-            tags:
-              - eco
+            tags: football
+          betting:
+              materialized: table
+              schema: betting
+              tags: betting
+
+      X-economic:
+          materialized: table
+          schema: eco
+          tags: eco
 seeds:
   billong:
     enabled: true
