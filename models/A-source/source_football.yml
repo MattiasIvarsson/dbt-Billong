@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: football_land
+    database: BILLONG_LAND   # Tell dbt to look for the source in the "raw" database
+    schema: football            # You wouldn't put your source data in public, would you?
+
+    tables:
+      - name: football_countries_union
+        identifier: countries_union # To alias table names to account for strange casing or naming of tables
+
