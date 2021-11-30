@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb437325-9f54-48d3-b51f-acfe6d2445ba" name="Default Changelist" comment="">
+    <list default="true" id="cb437325-9f54-48d3-b51f-acfe6d2445ba" name="Default Changelist" comment="added betting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/marts/football/countries_union.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/football/countries_union.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +16,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BDL" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -59,15 +59,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added betting" />
     <option name="LAST_COMMIT_MESSAGE" value="added betting" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2534" y="134" key="CommitChangelistDialog2" timestamp="1611838196481">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2534" y="134" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1611838196481" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611838200049">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1611838200049" />
   </component>
 </project>
