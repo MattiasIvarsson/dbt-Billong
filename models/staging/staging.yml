@@ -2,11 +2,11 @@ version: 2
 
 models:
 
-  - name: football_results
-    description: All results
+  - name: england_0019
+    description: Game result from england Season 2000 - 2019
     columns:
       - name: match_key
-        description: from_case_key
+        description: Primary key
         tests:
           - not_null
           - unique

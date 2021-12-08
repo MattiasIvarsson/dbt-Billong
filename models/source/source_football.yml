@@ -3,9 +3,24 @@ version: 2
 sources:
   - name: football_land
     database: BILLONG_LAND   # Tell dbt to look for the source in the "raw" database
-    schema: football            # You wouldn't put your source data in public, would you?
+    schema: dbo            # You wouldn't put your source data in public, would you?
 
     tables:
+      - name: germany_0019
+        identifier: ResultsBundesliga_00_19  # To alias table names to account for strange casing or naming of table
+
+      - name: england_0019
+        identifier: ResultsPremierLeague_00_19
+
+      - name: spain_0019
+        identifier: ResultsLaLiga_00_19
+
+      - name: france_0019
+        identifier: ResultsLigue1_00_19
+
+      - name: italy_0019
+        identifier: ResultsSerieA_00_19
+
       - name: football_countries_union
-        identifier: countries_union # To alias table names to account for strange casing or naming of tables
+        identifier: countries_union
 

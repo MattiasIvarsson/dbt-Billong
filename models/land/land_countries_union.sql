@@ -1,4 +1,4 @@
-{{config(materialized='view', tags='football')}}
+{{config(materialized='view', tags='football',enabled=false)}}
 
 
 SELECT
