@@ -6,20 +6,54 @@ sources:
     schema: dbo            # You wouldn't put your source data in public, would you?
 
     tables:
-      - name: germany_0019
-        identifier: ResultsBundesliga_00_19  # To alias table names to account for strange casing or naming of table
-
+      # ENGLAND --------------------------------------
       - name: england_0019
         identifier: ResultsPremierLeague_00_19
 
-      - name: spain_0019
-        identifier: ResultsLaLiga_00_19
+      - name: england_1920
+        identifier: England_19_20
 
+      - name: england_2021
+        identifier: England_20_21
+      # GERMANY --------------------------------------
+      - name: germany_0019
+        identifier: ResultsBundesliga_00_19
+
+      - name: germany_1920
+        identifier: Germany_19_20
+
+      - name: germany_2021
+        identifier: Germany_20_21
+      # FRANCE --------------------------------------
       - name: france_0019
         identifier: ResultsLigue1_00_19
 
+      - name: france_1920
+        identifier: France_19_20
+
+      - name: france_2021
+        identifier: France_20_21
+      # ITALY --------------------------------------
       - name: italy_0019
         identifier: ResultsSerieA_00_19
+
+      - name: italy_1920
+        identifier: Italy_19_20
+
+      - name: italy_2021
+        identifier: Italy_20_21
+
+      # SPAIN --------------------------------------
+      - name: spain_0019
+        identifier: ResultsLaLiga_00_19
+
+      - name: spain_1920
+        identifier: Spain_19_20
+
+      - name: spain_2021
+        identifier: Spain_20_21
+
+      # OTHER --------------------------------------
 
       - name: team_financial
         identifier: data_teams_financial

@@ -2,8 +2,54 @@ version: 2
 
 models:
 
-  - name: england_0019
-    description: Game result from england Season 2000 - 2019
+  - name: countries_union
+    description: Game result from all countries Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+
+  - name: england_all
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: france_all
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: germany_all
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: italy_all
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: spain_all
+    description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key
         description: Primary key

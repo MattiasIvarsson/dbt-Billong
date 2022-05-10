@@ -12,26 +12,21 @@
 WITH team_step1 AS (
 
     SELECT DISTINCT
-        team_home AS team
+        team_home       AS team
+        ,team_home_key  AS team_key
     FROM
         {{ref('countries_union')}}
-
 UNION ALL
     SELECT DISTINCT
-        team_away AS team
+        team_away       AS team
+        ,team_away_key  AS team_key
     FROM
         {{ref('countries_union')}}
-),
-team_step2 AS (
+)
 
     SELECT DISTINCT
         team
+        ,team_key
     FROM
         team_step1
- )
 
-SELECT
-    ROW_NUMBER() OVER( ORDER BY team) AS team_key
-    ,team
-FROM
-    team_step2

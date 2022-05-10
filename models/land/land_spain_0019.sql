@@ -1,36 +1,37 @@
-{{config(materialized='view', tags='football')}}
+{{config(materialized='view', tags=['football','spain'])}}
 
-SELECT
-	CONCAT(MatchDay,HomeTeam,AwayTeam) AS match_key
-	,GameNumber
-	,GameWeek
-	,CAST(MatchDay AS DATE)    AS MatchDay
-	--,MatchTime
-	,Season
-	,Country
-	,REPLACE(REPLACE(League,' "',''),'"','') AS League
-	,Division
-	,HomeTeam
-	,AwayTeam
-	,CAST(NULL AS VARCHAR(1))                                                   AS Referee
-	,CASE WHEN FullTimeHomeGoal	='NULL' THEN NULL ELSE FullTimeHomeGoal		END AS FullTimeHomeGoal
-	,CASE WHEN FullTimeAwayGoal	='NULL' THEN NULL ELSE FullTimeAwayGoal		END AS FullTimeAwayGoal
-	,CASE WHEN FullTimeResult	='NULL' THEN NULL ELSE FullTimeResult		END AS FullTimeResult
-	,CASE WHEN HalfTimeHomeGoal	='NULL' THEN NULL ELSE HalfTimeHomeGoal		END AS HalfTimeHomeGoal
-	,CASE WHEN HalfTimeAwayGoal	='NULL' THEN NULL ELSE HalfTimeAwayGoal		END AS HalfTimeAwayGoal
-	,CASE WHEN HalfTimeResult	='NULL' THEN NULL ELSE HalfTimeResult		END AS HalfTimeResult
-	,CASE WHEN HomeShots		='NULL' THEN NULL ELSE HomeShots			END AS HomeShots
-	,CASE WHEN AwayShots		='NULL' THEN NULL ELSE AwayShots			END AS AwayShots
-	,CASE WHEN HomeShotTarget	='NULL' THEN NULL ELSE HomeShotTarget		END AS HomeShotTarget
-	,CASE WHEN AwayShotTarget	='NULL' THEN NULL ELSE AwayShotTarget		END AS AwayShotTarget
-	,CASE WHEN HomeFouls		='NULL' THEN NULL ELSE HomeFouls			END AS HomeFouls
-	,CASE WHEN AwayFouls		='NULL' THEN NULL ELSE AwayFouls			END AS AwayFouls
-	,CASE WHEN HomeCorners		='NULL' THEN NULL ELSE HomeCorners			END AS HomeCorners
-	,CASE WHEN AwayCorners		='NULL' THEN NULL ELSE AwayCorners			END AS AwayCorners
-	,CASE WHEN HomeYellow		='NULL' THEN NULL ELSE HomeYellow			END AS HomeYellow
-	,CASE WHEN AwayYellow		='NULL' THEN NULL ELSE AwayYellow			END AS AwayYellow
-	,CASE WHEN HomeRed			='NULL' THEN NULL ELSE HomeRed				END AS HomeRed
-	,CASE WHEN AwayRed			='NULL' THEN NULL ELSE AwayRed				END AS AwayRed
+        SELECT
+            CONCAT(MatchDay,HomeTeam,AwayTeam)          AS match_key
+            ,GameNumber                                 AS match_no
+            ,GameWeek                                   AS match_week
+            ,CAST(MatchDay AS DATE)                     AS match_date
+            --,MatchTime
+            ,Season                                     AS season
+            ,Country                                    AS country
+            ,REPLACE(REPLACE(League,' "',''),'"','')    AS league
+            ,Division                                   AS division
+            ,HomeTeam                                   AS team_home
+            ,AwayTeam                                   AS team_away
+            ,NULL   AS referee
+            ,CASE WHEN FullTimeResult	='NULL' THEN NULL ELSE FullTimeResult		END AS result_full_time
+            ,CASE WHEN HalfTimeResult	='NULL' THEN NULL ELSE HalfTimeResult		END AS result_half_time
+            ,CASE WHEN FullTimeHomeGoal	='NULL' THEN NULL ELSE FullTimeHomeGoal		END AS goals_home
+            ,CASE WHEN FullTimeAwayGoal	='NULL' THEN NULL ELSE FullTimeAwayGoal		END AS goals_away
+            ,CASE WHEN HalfTimeHomeGoal	='NULL' THEN NULL ELSE HalfTimeHomeGoal		END AS goals_half_time_home
+            ,CASE WHEN HalfTimeAwayGoal	='NULL' THEN NULL ELSE HalfTimeAwayGoal		END AS goals_half_time_away
 
-FROM
-    {{source('football_land', 'spain_0019')}}
+            ,CASE WHEN HomeShots		='NULL' THEN NULL ELSE HomeShots			END AS shots_home
+            ,CASE WHEN AwayShots		='NULL' THEN NULL ELSE AwayShots			END AS shots_away
+            ,CASE WHEN HomeShotTarget	='NULL' THEN NULL ELSE HomeShotTarget		END AS shots_target_home
+            ,CASE WHEN AwayShotTarget	='NULL' THEN NULL ELSE AwayShotTarget		END AS shots_target_away
+            ,CASE WHEN HomeFouls		='NULL' THEN NULL ELSE HomeFouls			END AS fouls_home
+            ,CASE WHEN AwayFouls		='NULL' THEN NULL ELSE AwayFouls			END AS fouls_away
+            ,CASE WHEN HomeCorners		='NULL' THEN NULL ELSE HomeCorners			END AS corners_home
+            ,CASE WHEN AwayCorners		='NULL' THEN NULL ELSE AwayCorners			END AS corners_away
+            ,CASE WHEN HomeYellow		='NULL' THEN NULL ELSE HomeYellow			END AS yellow_home
+            ,CASE WHEN AwayYellow		='NULL' THEN NULL ELSE AwayYellow			END AS yellow_away
+            ,CASE WHEN HomeRed			='NULL' THEN NULL ELSE HomeRed				END AS red_home
+            ,CASE WHEN AwayRed			='NULL' THEN NULL ELSE AwayRed				END AS red_away
+            ,1                                                                          AS big_five
+        FROM
+            {{source('football_land', 'spain_0019')}}

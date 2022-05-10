@@ -2,8 +2,8 @@ version: 2
 
 models:
 
-  - name: f_result_match
-    description: Matches from season 2000 - 2019
+  - name: f_results_match
+    description: Matches from season 2000 - 2021
     columns:
       - name: match_key
         description: Primary key
@@ -11,25 +11,24 @@ models:
           - not_null
           - unique
 
-  - name: f_result_team
-    description: teamsresults from season 2000 - 2019
+  - name: f_results_team
+    description: teamsresults from season 2000 - 2021
     tests:
       - dbt_utils.unique_combination_of_columns:
           combination_of_columns:
             - match_key
             - location
     columns:
-      - name: match_key
+      - name: match_key #match_unique_key
         description: Primary key
         tests:
           - not_null
           - unique
 
-
       - name: location
         tests:
           - accepted_values:
-              values: ['Home', 'Away']
+              values: ['Home', 'Aw',] # FEL
       - name: country_key
         tests:
           - relationships:
