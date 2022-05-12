@@ -1,4 +1,8 @@
-{{config(materialized='incremental',tags='football',alias ='f_result_premier_league')}}
+{{config(materialized='incremental',
+        tags='football',
+        alias ='f_result_premier_league',
+       post_hook ="{{ create_nonclustered_index(columns = ['match_key'], includes = ['points']) }}"
+)}}
 
     SELECT
         f.*

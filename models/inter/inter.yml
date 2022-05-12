@@ -9,7 +9,7 @@ models:
         description: Primary key
         tests:
           - not_null
-          - unique
+          - unique    # FAILAR FOR ÄR EJ UNIK
 
   - name: f_results_team
     description: teamsresults from season 2000 - 2021
@@ -25,7 +25,7 @@ models:
           - not_null
           - unique
 
-      - name: location
+      - name: location  # FAIILARAR
         tests:
           - accepted_values:
               values: ['Home', 'Aw',] # FEL

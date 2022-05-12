@@ -2,7 +2,305 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb437325-9f54-48d3-b51f-acfe6d2445ba" name="Default Changelist" comment="added betting">
+      <change beforePath="$PROJECT_DIR$/.idea/dbt-Billong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbt-Billong.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/ISSUE_TEMPLATE/dbt_minor_release.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/ISSUE_TEMPLATE/utils_minor_release.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/RELEASE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/etc/dbt-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/.env/bigquery.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/.env/postgres.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/.env/redshift.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/.env/snowflake.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/ci/sample.profiles.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_cast_bool_to_text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_concat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_date_trunc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_dateadd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_datediff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_hash.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_last_day.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_length.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_position.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_replace.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_right.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_safe_cast.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_split_part.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/cross_db/data_width_bucket.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/datetime/data_date_spine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/etc/data_people.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/geo/data_haversine_km.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/geo/data_haversine_mi.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/materializations/data_insert_by_period.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_cardinality_equality_a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_cardinality_equality_b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_not_null_proportion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_accepted_range.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_at_least_one.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_equal_rowcount.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_expression_is_true.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_fewer_rows_than_table_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_fewer_rows_than_table_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_mutually_exclusive_ranges_no_gaps.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_mutually_exclusive_ranges_with_gaps.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_mutually_exclusive_ranges_with_gaps_zero_length.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_not_accepted_values.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_not_constant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_not_null_where.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_relationships_where_table_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_relationships_where_table_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_sequential_timestamps.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_sequential_values.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_test_unique_where.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/data_unique_combination_of_columns.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/schema_tests/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_events_20180101.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_events_20180102.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_events_20180103.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_generate_series.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_get_column_values.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_get_column_values_dropped.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_get_query_results_as_dict.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_nullcheck_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_pivot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_pivot_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_safe_add.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_star.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_star_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_surrogate_key.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_union_events_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_union_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_union_table_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_union_table_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_unpivot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_unpivot_bool.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_unpivot_bool_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_unpivot_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/sql/data_unpivot_original_api_expected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/web/data_url_host.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/web/data_url_path.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/data/web/data_urls.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/macros/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/macros/limit_zero.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/macros/tests.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_concat.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_current_timestamp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_current_timestamp_in_utc.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_date_trunc.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_dateadd.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_datediff.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_hash.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_last_day.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_length.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_position.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_replace.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_right.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_safe_cast.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_split_part.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/cross_db_utils/test_width_bucket.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/datetime/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/datetime/test_date_spine.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/geo/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/geo/test_haversine_distance_km.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/geo/test_haversine_distance_mi.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/materializations/expected_insert_by_period.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/materializations/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/materializations/test_insert_by_period.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/schema_tests/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/schema_tests/test_equal_column_subset.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/schema_tests/test_equal_rowcount.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/schema_tests/test_fewer_rows_than.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/schema_tests/test_recency.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_generate_series.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_get_column_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_get_relations_by_pattern.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_get_relations_by_prefix_and_union.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_groupby.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_nullcheck_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_pivot.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_safe_add.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_star.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_surrogate_key.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_union.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_union_base.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_unpivot.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_unpivot_bool.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/sql/test_unpivot_original_api.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/web/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/web/test_url_host.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/web/test_url_path.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/models/web/test_urls.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/packages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/tests/assert_get_query_results_as_dict_objects_equal.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/tests/jinja_helpers/assert_pretty_output_msg_is_string.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/tests/jinja_helpers/assert_pretty_time_is_string.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/tests/jinja_helpers/test_slugify.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/integration_tests/tests/sql/test_get_column_values_use_default.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/_is_ephemeral.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/_is_relation.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/cast_bool_to_text.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/concat.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/current_timestamp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/datatypes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/date_trunc.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/dateadd.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/datediff.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/except.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/hash.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/identifier.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/intersect.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/last_day.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/length.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/literal.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/position.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/replace.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/right.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/safe_cast.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/split_part.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/cross_db_utils/width_bucket.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/jinja_helpers/log_info.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/jinja_helpers/pretty_log_format.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/jinja_helpers/pretty_time.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/jinja_helpers/slugify.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/materializations/insert_by_period_materialization.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/accepted_range.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/at_least_one.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/cardinality_equality.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/equal_rowcount.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/equality.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/expression_is_true.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/fewer_rows_than.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/mutually_exclusive_ranges.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/not_accepted_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/not_constant.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/not_null_proportion.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/recency.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/relationships_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/sequential_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/test_not_null_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/test_unique_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/schema_tests/unique_combination_of_columns.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/date_spine.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/generate_series.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_column_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_query_results_as_dict.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_relations_by_pattern.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_relations_by_prefix.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_tables_by_pattern_sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/get_tables_by_prefix_sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/groupby.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/haversine_distance.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/nullcheck.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/nullcheck_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/pivot.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/safe_add.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/star.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/surrogate_key.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/union.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/sql/unpivot.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/web/get_url_host.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/web/get_url_parameter.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/macros/web/get_url_path.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/dbt_utils/run_test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/logging" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/ci/sample.profiles.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_audit_helper/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_audit_helper/packages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_date/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_date/macros/get_test_dates.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_date/packages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_expectations/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_expectations/packages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_utils/dbt_project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_utils/macros/limit_zero.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/integration_tests/dbt_utils/packages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_audit_helper/compare_column_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_audit_helper/compare_queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_audit_helper/compare_relation_columns.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_audit_helper/compare_relations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/convert_timezones.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/date_part.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/day_name.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/day_of_week.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/from_unixtimestamp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/iso_week_of_year.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/iso_week_start.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/month_name.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/to_unixtimestamp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/week_end.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/week_of_year.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_date/calendar_date/week_start.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/math/log_natural.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/_generalized/equal_expression.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/_generalized/expression_is_true.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_most_common_value_to_be_in_set.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_stdev_to_be_between.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_moving_stdevs.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_stdevs.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/multi-column/expect_select_column_values_to_be_unique_within_record.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_expectations/schema_tests/table_shape/expect_grouped_row_values_to_have_recent_data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/concat.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/current_timestamp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/datatypes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/date_trunc.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/dateadd.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/datediff.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/hash.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/last_day.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/length.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/position.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/safe_cast.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/split_part.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/cross_db_utils/width_bucket.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/datetime/date_spine.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_cleanup/drop_old_relations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_cleanup/drop_schema_by_name.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_cleanup/drop_schemas_by_prefixes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_tests/mutually_exclusive_ranges.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_tests/relationships_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_tests/sequential_values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_tests/test_not_null_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/schema_tests/test_unique_where.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/sql/generate_series.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/sql/get_tables_by_pattern_sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/dbt_utils/sql/surrogate_key.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/materializations/insert_by_period_helpers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_modules/tsql_utils/macros/materializations/insert_by_period_materialization.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_packages/logging" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_packages/logging/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/inter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/inter.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/football/f_results_england.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/football/f_results_england.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/england_all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/england_all.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BDL" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.dbt" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -55,6 +353,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added betting" />

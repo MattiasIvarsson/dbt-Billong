@@ -50,7 +50,7 @@ dispatch:
    search_order: ['tsql_utils', 'audit_helper']
 
 models:
-  billong:
+  billong: # MUST BE SOME NAME AS PROJECT
       pre-hook: "{{ logging.log_model_start_event() }}"
       post-hook: "{{ logging.log_model_end_event() }}"
       # Applies to all files under models/example/

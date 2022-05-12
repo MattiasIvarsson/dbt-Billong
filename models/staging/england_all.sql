@@ -105,8 +105,6 @@ UNION ALL
 		,big_five
     FROM
         {{ref('land_england_2021')}}
-
-
 )
 
     SELECT
