@@ -9,7 +9,7 @@ WITH match_union AS (
     SELECT
         r.match_key
         ,CONCAT(match_date,team_home,team_away,'Home') AS match_unique_key
-        ,r.country_key
+        ,r.league_key
         ,r.match_date
         ,'Home'             AS location
         ,r.team_home_key    AS team_key
@@ -37,7 +37,7 @@ UNION ALL
     SELECT
         r.match_key
         ,CONCAT(match_date,team_home,team_away,'Away') AS match_unique_key
-        ,r.country_key
+        ,r.league_key
         ,r.match_date
         ,'Away'                AS location
         ,r.team_away_key       AS team_key
@@ -66,7 +66,7 @@ UNION ALL
     SELECT
         match_key
         ,CONVERT(BINARY(16), HASHBYTES('MD5',match_unique_key)) AS match_unique_key
-        ,country_key
+        ,league_key
         ,match_date
         ,location
         ,team_key

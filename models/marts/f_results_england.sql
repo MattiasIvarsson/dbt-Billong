@@ -8,7 +8,7 @@
         f.*
     FROM
                 {{ref('f_results_team')}}    AS f
-    LEFT JOIN   {{ref('d_country')}}        AS c ON f.country_key = c.country_key
+    LEFT JOIN   {{ref('d_league')}}         AS c ON f.league_key = c.league_key
     LEFT JOIN   {{ref('d_calendar')}}       AS d ON f.match_date = d.date_key
     WHERE
         c.country = 'England'

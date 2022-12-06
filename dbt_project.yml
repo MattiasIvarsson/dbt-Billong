@@ -25,14 +25,11 @@ vars:
   billong_event: ['current']
   billong_start_date_limit: 'CAST(DATEADD(YEAR, DATEDIFF(YEAR,0,GETDATE())-8, 0) AS DATE)'
   billong_country_key: 'England'
-
-
 # You can define configurations for models in the `A-source-paths` directory here.
 # Using these configurations, you can enable or disable models, change how they
 # are materialized, and more!
-on-run-start:
-    - "drop FUNCTION IF EXISTS dbo.udfGetOnlyNumeric"
-    - "CREATE  FUNCTION [dbo].[udfGetOnlyNumeric](@String NVARCHAR(100)) RETURNS NVARCHAR(100) WITH SCHEMABINDING AS  BEGIN WHILE PATINDEX('%[^0-9]%', @String) > 0  SET @String = REPLACE(@String, SUBSTRING(@String,PATINDEX('%[^0-9]%', @String),1),'') WHILE PATINDEX('%+%', @String) > 0  SET @String = REPLACE(@String, SUBSTRING(@String,PATINDEX('%[^0-9]%', @String),1),'') Return @String END"
+
+#on-run-start:
 
 # In this example config, we tell dbt to build all models in the example/ directory
 # as views (the default). These settings can be overridden in the
@@ -48,6 +45,9 @@ dispatch:
    search_order: ['tsql_utils', 'dbt_expectations']
  - macro_namespace: audit_helper
    search_order: ['tsql_utils', 'audit_helper']
+
+
+
 
 models:
   billong: # MUST BE SOME NAME AS PROJECT
@@ -70,10 +70,6 @@ models:
           materialized: table
           schema: marts
           tags: marts
-          football:
-            materialized: table
-            schema: football
-            tags: football
 
 seeds:
   billong:

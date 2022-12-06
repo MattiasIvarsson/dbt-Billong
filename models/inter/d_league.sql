@@ -6,9 +6,9 @@
 -- etc
 
     SELECT DISTINCT
-        country_key
-        ,country
+        league_key
         ,league
+        ,country
         ,CASE WHEN league IN    ('Premier League'
                                 ,'Serie A'
                                 ,'Ligue 1'
