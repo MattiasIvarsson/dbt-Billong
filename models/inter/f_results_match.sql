@@ -42,8 +42,8 @@
         ,r.red_away
         ,r.big_five
     FROM
-                {{ref('countries_union')}}  AS r
-    LEFT JOIN   {{ref('d_country')}}        AS c    ON r.country = c.country   AND r.league = c.league
-    LEFT JOIN   {{ref('d_team')}}           AS th   ON r.team_home = th.team
-    LEFT JOIN   {{ref('d_team')}}           AS ta   ON r.team_home = ta.team
+                {{ref('f_results_countries_stg')}}  AS r
+    LEFT JOIN   {{ref('d_country')}}                AS c    ON r.country = c.country   AND r.league = c.league
+    LEFT JOIN   {{ref('d_team')}}                   AS th   ON r.team_home = th.team
+    LEFT JOIN   {{ref('d_team')}}                   AS ta   ON r.team_home = ta.team
 

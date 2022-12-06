@@ -9,7 +9,11 @@
         country_key
         ,country
         ,league
-        ,ISNULL(big_five,0) AS big_five
+        ,CASE WHEN league IN    ('Premier League'
+                                ,'Serie A'
+                                ,'Ligue 1'
+                                ,'La Liga'
+                                ,'Bundesliga') THEN 1 ELSE 0 END AS big_five
     FROM
-        {{ref('countries_union')}}
+        {{ref('f_results_countries_stg')}}
 

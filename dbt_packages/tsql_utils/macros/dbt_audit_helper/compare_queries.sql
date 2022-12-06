@@ -1,4 +1,4 @@
-{% macro sqlserver__compare_queries(a_query, b_query, primary_key=None) %}
+{% macro sqlserver__compare_queries(a_query, b_query, primary_key=None, summarize=true) %}
 
 with a as (
 
@@ -15,7 +15,7 @@ b as (
 a_intersect_b as (
 
     select * from a
-    {{ dbt_utils.intersect() }}
+    {{ dbt.intersect() }}
     select * from b
 
 ),
@@ -23,7 +23,7 @@ a_intersect_b as (
 a_except_b as (
 
     select * from a
-    {{ dbt_utils.except() }}
+    {{ dbt.except() }}
     select * from b
 
 ),
@@ -31,7 +31,7 @@ a_except_b as (
 b_except_a as (
 
     select * from b
-    {{ dbt_utils.except() }}
+    {{ dbt.except() }}
     select * from a
 
 ),
@@ -62,24 +62,39 @@ all_records as (
 
 ),
 
+{%- if summarize %}
+
 summary_stats as (
     select
         in_a,
         in_b,
         count(*) as count
     from all_records
-
     group by in_a, in_b
-)
-{# use this if you want to see all mismatching rows! #}
--- select * from all_records
--- where not (in_a=1 and in_b=1)
--- order by {{ primary_key ~ ", " if primary_key is not none }} in_a desc, in_b desc
+),
 
-select
+final as (
+
+    select
     *,
     round(100.0 * count / sum(count) over (), 2) as percent_of_total
 
-from summary_stats
+    from summary_stats
+)
+
+{%- else %}
+
+final as (
+
+    select *
+    from all_records
+    where not (in_a = 1 and in_b = 1)
+
+)
+
+{%- endif %}
+
+select *
+from final
 
 {% endmacro %}

@@ -2,7 +2,7 @@ version: 2
 
 models:
 
-  - name: countries_union
+  - name: f_results_countries_stg
     description: Game result from all countries Season 2000 - 2021
     columns:
       - name: match_key
@@ -12,7 +12,7 @@ models:
           - unique
 
 
-  - name: england_all
+  - name: results_england_stg
     description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key
@@ -21,7 +21,7 @@ models:
           - not_null
           - unique
 
-  - name: france_all
+  - name: results_france_stg
     description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key
@@ -30,7 +30,7 @@ models:
           - not_null
           - unique
 
-  - name: germany_all
+  - name: results_germany_stg
     description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key
@@ -39,7 +39,7 @@ models:
           - not_null
           - unique
 
-  - name: italy_all
+  - name: results_italy_stg
     description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key
@@ -48,7 +48,7 @@ models:
           - not_null
           - unique
 
-  - name: spain_all
+  - name: results_spain_stg
     description: Game result from england Season 2000 - 2021
     columns:
       - name: match_key

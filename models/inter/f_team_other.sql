@@ -19,7 +19,7 @@
 		,o.twitter_m
 		,o.facebook_m
     FROM
-                {{ref('team_other')}}       AS o
+                {{ref('f_team_other_stg')}} AS o
     LEFT JOIN   {{ref('d_country')}}        AS c    ON o.country = c.country   AND o.league = c.league
     LEFT JOIN   {{ref('d_team')}}           AS t    ON o.country = c.country   AND o.team = t.team
 

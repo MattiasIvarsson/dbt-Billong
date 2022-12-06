@@ -14,4 +14,4 @@
         ,Twitter_m				AS twitter_m
         ,Facebook_m				AS facebook_m
     FROM
-        {{source('football_land', 'team_other')}}
+        {{source('football_land', 'football_teams_data')}}

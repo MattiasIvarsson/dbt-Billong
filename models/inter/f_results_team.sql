@@ -31,7 +31,7 @@ WITH match_union AS (
         ,r.yellow_home			    AS yellow
         ,r.red_home				    AS red
     FROM
-        {{ref('countries_union')}}  AS r
+        {{ref('f_results_countries_stg')}}  AS r
 
 UNION ALL
     SELECT
@@ -59,7 +59,7 @@ UNION ALL
         ,r.yellow_away			    AS yellow
         ,r.red_away				    AS red
     FROM
-        {{ref('countries_union')}}  AS r
+        {{ref('f_results_countries_stg')}}  AS r
 
 )
 

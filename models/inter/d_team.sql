@@ -15,13 +15,13 @@ WITH team_step1 AS (
         team_home       AS team
         ,team_home_key  AS team_key
     FROM
-        {{ref('countries_union')}}
+        {{ref('f_results_countries_stg')}}
 UNION ALL
     SELECT DISTINCT
         team_away       AS team
         ,team_away_key  AS team_key
     FROM
-        {{ref('countries_union')}}
+        {{ref('f_results_countries_stg')}}
 )
 
     SELECT DISTINCT

@@ -23,4 +23,4 @@ SELECT
 		,OwnerMajorField			AS owner_major_field
 		,[StadiumNaming_rights]		AS stadium_naming_rights
 FROM
-    {{source('football_land', 'team_financial')}}
+    {{source('football_land', 'football_teams_data_financial')}}
