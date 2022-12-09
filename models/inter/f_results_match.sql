@@ -40,4 +40,4 @@
         ,red_home
         ,red_away
     FROM
-        {{ref('f_results_countries_stg')}}  AS r
+        {{ref('f_results_match_stg')}}  AS r

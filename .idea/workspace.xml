@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb437325-9f54-48d3-b51f-acfe6d2445ba" name="Default Changelist" comment="change name structure. Added 2021-2022">
+      <change afterPath="$PROJECT_DIR$/models/staging/d_season_stg.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/staging/f_results_team_stg.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_packages/logging" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_packages/logging/macros/audit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging/macros/audit.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_packages/logging/models/stg_dbt_audit_log.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging/models/stg_dbt_audit_log.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbt_packages/logging/models/stg_dbt_model_deployments.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_packages/logging/models/stg_dbt_model_deployments.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_project.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/exposures.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/marts/football/f_results.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/f_results.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/marts/football/f_results_england.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/f_results_england.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/d_calendar.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/d_calendar.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/d_league.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/d_league.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/d_team.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/d_team.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/f_results_match.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/f_results_match.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/f_results_team.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/f_results_team.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inter/inter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/inter/inter.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/f_results.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/f_results_team_m.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/f_results_england.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/marts/f_results_england.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/f_results_countries_stg.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/f_results_match_stg.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/staging.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/staging.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +37,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.dbt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models/staging" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\dbt-Billong\models\staging" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\dbt-Billong\models\marts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">

@@ -80,6 +80,7 @@ WITH datelimit AS(
 SELECT
      date_key
     ,calendar_date
+    ,s.season AS football_season
     ,year
     ,quarter
     ,yearquarter
@@ -121,4 +122,6 @@ SELECT
 	,prev_quarter
     ,prev_month_no
 FROM
-    gen_step2
+            gen_step2 AS c
+LEFT JOIN {{ref('d_season_stg')}}   AS s ON c.date_key BETWEEN s.from_date AND s.to_date
+

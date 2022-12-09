@@ -2,7 +2,7 @@ version: 2
 
 models:
 
-  - name: f_results_countries_stg
+  - name: f_results_match_stg
     description: Game result from all countries Season 2000 - 2021
     columns:
       - name: match_key

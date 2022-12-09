@@ -28,9 +28,9 @@ models:
         tests:
           - accepted_values:
               values: ['Home', 'Away',] # FEL
-      - name: country_key
+      - name: league_key
         tests:
           - relationships:
-              to: ref('d_country')
-              field: country_key
+              to: ref('d_league')
+              field: league_key
 
