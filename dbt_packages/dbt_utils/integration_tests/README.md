@@ -17,12 +17,12 @@ Edit the env file for your TARGET in `integration_tests/.env/[TARGET].env`.
 
 Load the environment variables:
 ```shell
-set -a; source integration_tests/.env/[TARGET].env; set +a
+set -a; 4-source integration_tests/.env/[TARGET].env; set +a
 ```
 
 or more specific:
 ```shell
-set -a; source integration_tests/.env/postgres.env; set +a
+set -a; 4-source integration_tests/.env/postgres.env; set +a
 ```
 
 #### Setup Postgres (optional)
@@ -45,7 +45,7 @@ We strongly recommend using virtual environments when developing code in `dbt-ut
 in the root of the `dbt-utils` repository. To create a new virtualenv, run:
 ```shell
 python3 -m venv env
-source env/bin/activate
+4-source env/bin/activate
 ```
 
 This will create and activate a new Python virtual environment.

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+
+  - name: d_calendar
+    description: Calendar
+    columns:
+      - name: date_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique

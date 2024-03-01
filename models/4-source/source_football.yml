@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: football_land
+    database: BILLONG_LAND   # Tell dbt to look for the 4-4-source in the "raw" database
+    schema: football            # You wouldn't put your 4-4-source data in public, would you?
+
+    tables:
+
+      - name: results_all_leagues_hist
+        identifier: results_all_leagues_hist
+
+      - name: results_champions_league_hist
+        identifier: results_champions_league_hist
+
+      - name: results_england_comp_hist
+        identifier: results_england_comp_hist
+
+      - name: master_country_all
+        identifier: master_country_all
+
+      - name: master_leagues_all
+        identifier: master_leagues_all
+
+      - name: master_teams_all
+        identifier: master_teams_all
+
+
+      - name: football_teams_data_financial
+        identifier: football_teams_data_financial
+
+
+

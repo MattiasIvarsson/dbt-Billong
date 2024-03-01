@@ -1,0 +1,31 @@
+version: 2
+
+models:
+
+  - name: land_results_all_leagues_hist
+    description: Historical data from most leauges
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: land_results_champions_league_hist
+    description: Historical data from champions league
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: land_results_england_comp_hist
+    description: Historical data from Englands internal competitions
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+

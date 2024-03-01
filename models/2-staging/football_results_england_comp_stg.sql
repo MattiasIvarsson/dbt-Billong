@@ -1,0 +1,31 @@
+{{config(tags='football')}}
+
+	SELECT
+		CONVERT(BINARY(16), HASHBYTES('MD5',match_key))  AS match_key_hash
+        --gamenumber
+        --gameweek
+        ,competition
+        ,match_date
+        ,season
+        ,team_home
+        ,team_away
+        ,goals_home
+        ,goals_away
+        ,results
+        ,points_home
+        ,points_away
+        ,round
+        ,tie
+        ,leg
+        ,extra_time
+        ,penalty
+        ,penalties_result
+        ,penalties_home
+        ,penalties_away
+        ,venue
+        ,attendance
+        ,non_match
+        ,notes
+        ,neutral
+    FROM
+        {{ref('land_results_england_comp_hist')}}

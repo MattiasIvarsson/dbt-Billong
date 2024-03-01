@@ -7,11 +7,11 @@ selectors:
       union:
         # LAND TAG AND ITS PARENTS
         - method: tag
-          value: land
+          value: 3-land
 
         # STAGING TAG AND ITS PARENTS
         - method: tag
-          value: staging
+          value: 2-staging
           parents: true
           parents_depth: 1
 
@@ -21,7 +21,7 @@ selectors:
   - name: daily_staging
     definition:
       method: tag
-      value: staging
+      value: 2-staging
       parents: true
       parents_depth: 1
 
@@ -40,17 +40,17 @@ selectors:
 
         # ADMIN FOLDER AND ITS PARENTS
         - method: path  # folder path instead of tag
-          value: models/A-admin
+          value: models/A-0-admin
 
         # EXCLUDE TAGS
         - exclude:
             - method: tag
-              value: staging
+              value: 2-staging
               parents: true # Exclude all models from dail_staging
               parents_depth: 1
 
             - method: tag
-              value: marts
+              value: 1-marts
 
             - method: tag
               value: scoring
@@ -76,6 +76,6 @@ selectors:
         # EXCLUDE TAGS
         - exclude:
             - method: tag
-              value: staging
+              value: 2-staging
               parents: true # exclude all modes from daily_staging
               parents_depth: 1
